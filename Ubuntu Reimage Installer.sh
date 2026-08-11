@@ -7,7 +7,7 @@ sudo apt update
 # VSCode install
 sudo snap install code --classic
 
-# Install Go
+# Install Go -- if errors occurs, 
 sudo snap install go --classic
 
 # Install Git
@@ -18,3 +18,6 @@ sudo apt install gh
 
 # Install BootDev CLI
 go install github.com/bootdotdev/bootdev@latest
+
+# Install Discord
+sudo snap install discord

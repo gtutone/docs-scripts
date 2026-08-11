@@ -92,8 +92,12 @@
 | / | only in this root folder
 
 # GitHub
-
 | Command | Description |
 | ------ | ---------- |
 | gh auth login | Login to GitHub. Must have Git installed |
 | gh repo create | Create new repo |
+
+# Snap
+| Command | Description |
+| ------ | ---------- |
+| snap search /<keyword> | Search for something in available snap packages |
