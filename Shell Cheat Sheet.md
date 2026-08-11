@@ -101,3 +101,11 @@
 | Command | Description |
 | ------ | ---------- |
 | snap search /<keyword> | Search for something in available snap packages |
+
+# Go
+| Command | Description |
+| ------ | ---------- |
+| go mod init github.com/gtutone/golang-projects | Initialize dependency tracking. Create repo first. |
+| go run . | Run program. Needs a main function |
+| go build . | Build program |
+| go test | Run tests. Only words with files ending in _test.go |
