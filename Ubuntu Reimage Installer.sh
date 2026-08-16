@@ -21,3 +21,6 @@ go install github.com/bootdotdev/bootdev@latest
 
 # Install Discord
 sudo snap install discord
+
+# Install NordVP
+sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh) -p nordvpn-gui
