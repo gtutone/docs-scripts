@@ -97,10 +97,20 @@
 | gh auth login | Login to GitHub. Must have Git installed |
 | gh repo create | Create new repo |
 
-# Snap
+# Packages 
+### Snap
 | Command | Description |
 | ------ | ---------- |
 | snap search /<keyword> | Search for something in available snap packages |
+| snap list | List all installed snap packages |
+| sudo snap remove package_name | Uninstall snap package |
+
+### APT
+| Command | Description |
+| ------ | ---------- |
+| apt-mark showmanual | Show list of manually installed packages |
+| sudo apt remove package_name | Uninstall apt package |
+
 
 # Go
 | Command | Description |
