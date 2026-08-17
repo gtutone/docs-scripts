@@ -24,3 +24,6 @@ sudo snap install discord
 
 # Install NordVP
 sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh) -p nordvpn-gui
+
+# Install LibreOffice
+sudo snap install libreoffice
