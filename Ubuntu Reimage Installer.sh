@@ -27,3 +27,6 @@ sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh) -p nordvpn-
 
 # Install LibreOffice
 sudo snap install libreoffice
+
+# Install Slack
+sudo snap install slack
