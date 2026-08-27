@@ -30,3 +30,10 @@ sudo snap install libreoffice
 
 # Install Slack
 sudo snap install slack
+
+# Install Brave
+sudo apt install curl
+sudo apt install brave-browser
+
+# Install qBittorrent
+sudo apt-get install qbittorrent
