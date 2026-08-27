@@ -1,0 +1,8 @@
+# Install latest version of Powershell
+winget install --id Microsoft.PowerShell --source winget
+
+# Install Chocolatey, a package manager for Windows.
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+# Install GitHub CLI (needed to download Youtube Downloader)
+# winget install --id GitHub.cli
