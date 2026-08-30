@@ -1,16 +1,19 @@
 # General
 | Command | Description |
 | ------ | ---------- |
-| cat | read contents of file
-| nano | text editor, edit contents of file
-| man | read the manual
-| grep | search string within file
-| ln -s TARGET_PATH SymLinkName | Create SymLink
-| touch | create new file
-| cp | copy
-| mv FILE TARGET_PATH | move
-| rm | remove
-| mkdir | make directory
+| cat | read contents of file |
+| nano | text editor, edit contents of file |
+| man | read the manual |
+| grep | search string within file |
+| ln -s TARGET_PATH SymLinkName | Create SymLink |
+| touch | create new file |
+| cp | copy |
+| mv FILE TARGET_PATH | move |
+| rm | remove |
+| rmdir | remove directory |
+| mkdir | make directory |
+| VAR="Hello" | Create new variable |
+| $VAR | use the variable in a script by prefixing the variable name with $ |
 
 ### Environment variables
 | Command | Description |
