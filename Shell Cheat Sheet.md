@@ -104,13 +104,20 @@
 | snap search /<keyword> | Search for something in available snap packages |
 | snap list | List all installed snap packages |
 | sudo snap remove package_name | Uninstall snap package |
+| sudo snap refresh | Update Snap packages |
 
 ### APT
 | Command | Description |
 | ------ | ---------- |
 | apt-mark showmanual | Show list of manually installed packages |
 | sudo apt remove package_name | Uninstall apt package |
+| sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y | full-upgrade handles package removals/replacements needed to satisfy dependency changes. autoremove cleans up old dependency packages no longer needed after upgrades |
 
+### Ubuntu
+| Command | Description |
+| ------ | ---------- |
+| lsb_release -a | Check what version of Ubuntu you are on |
+| do-release-upgrade -c | Check for new Ubuntu release |
 
 # Go
 | Command | Description |
