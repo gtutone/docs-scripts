@@ -37,3 +37,6 @@ sudo apt install brave-browser
 
 # Install qBittorrent
 sudo apt-get install qbittorrent
+
+# Install Obsidian
+sudo snap install obsidian --classic
